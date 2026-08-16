@@ -6,6 +6,23 @@ A Python-based quantitative investment research project that develops and backte
 
 The model ranks stocks based on standardized factor scores, combines them into a composite ranking, selects the top 5 stocks, and rebalances the portfolio approximately every 21 trading days. The strategy is evaluated against an equal-weighted Nifty 50 benchmark.
 
+## Project Snapshot
+
+| Component | Details |
+|---|---|
+| **Universe** | Nifty 50 |
+| **Factors** | Momentum, Low Volatility, Value |
+| **Portfolio** | Top 5 ranked stocks |
+| **Rebalancing** | Approximately every 21 trading days |
+| **Transaction Costs** | 20 bps |
+| **Benchmark** | Equal-Weighted Nifty 50 |
+| **Environment** | Python / Google Colab |
+
+### Project Files
+
+- 📓 [View the full Jupyter Notebook](Nifty_50_MultiFactor_Strategy.ipynb)
+- 📊 [View the backtest results](images/backtest-performance.png)
+
 ## Project Objective
 
 The objective is to demonstrate the application of quantitative finance concepts to portfolio construction and investment research — from market-data collection and factor construction to backtesting, performance attribution, and risk analysis.
