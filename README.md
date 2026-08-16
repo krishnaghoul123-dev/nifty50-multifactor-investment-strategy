@@ -1,3 +1,5 @@
+![Nifty 50 Multi-Factor Investment Strategy](project-banner.png)
+
 # Nifty 50 Multi-Factor Investment Strategy
 
 A Python-based quantitative investment research project that develops and backtests a **Nifty 50 multi-factor stock selection strategy** using **Momentum, Low Volatility, and Value** factors.
@@ -49,23 +51,49 @@ A higher composite score indicates a more attractive combination of momentum, lo
 * Transaction cost assumption: 20 basis points
 * Benchmark: Equal-weighted Nifty 50 universe
 
-## Backtesting & Analysis
+## Backtest Performance
+
+The strategy is evaluated against an equal-weighted Nifty 50 universe while incorporating assumed transaction costs of 20 basis points.
+
+![Backtest Performance](images/backtest-performance.png)
+
+## Factor Performance
+
+The project compares the individual Momentum, Low Volatility and Value factors against the combined multi-factor strategy.
+
+![Factor Performance](images/factor-performance.png)
+
+## Risk Analysis
+
+Drawdown analysis is used to evaluate the magnitude and duration of losses experienced by the strategy relative to the benchmark.
+
+![Drawdown Analysis](images/drawdown-analysis.png)
+
+## Factor Correlation
+
+The correlation analysis examines the relationship between strategy returns and the individual factor portfolios.
+
+![Factor Correlation](images/factor-correlation.png)
+
+## Current Sector Allocation
+
+The current portfolio's sector allocation provides an overview of the concentration of selected stocks across sectors.
+
+![Current Sector Allocation](images/sector-allocation.png)
+
+## Performance & Risk Metrics
 
 The project evaluates:
 
-* Cumulative strategy performance
-* Benchmark performance
-* Individual factor performance
-* CAGR
-* Annualized volatility
-* Sharpe Ratio
-* Sortino Ratio
-* Maximum drawdown
-* Factor correlation
-* Strategy-to-factor correlation
-* Sector exposure of current portfolio selections
-* Current top 5 stock signals
-
+- Cumulative strategy performance
+- Benchmark performance
+- CAGR
+- Annualized volatility
+- Sharpe Ratio
+- Sortino Ratio
+- Maximum drawdown
+- Factor correlation
+- Strategy-to-factor correlation
 ## Technologies Used
 
 * **Python**
